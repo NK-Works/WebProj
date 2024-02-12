@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import App from '../App';
+import App from './App';
 
 test('renders New Post title', () => {
   const { getByText } = render(<App />);
